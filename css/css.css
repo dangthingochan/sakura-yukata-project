@@ -1,0 +1,19 @@
+.card{width:100%;height:auto;background:#fff;border-radius:20px;transition:transform 0.3s ease-in-out;overflow:hidden;cursor:pointer;}
+.card:hover{transform:scale(1.06)}
+.card-inner{position:relative;width:100%;padding-bottom:110%;height:0;overflow:hidden;}
+.card-front,.card-back{position:absolute;top:0;left:0;width:100%;height:100%;transition:opacity 0.4s ease-in-out,visibility 0.4s ease-in-out;}
+.card-front img,.card-back img{width:100%;height:100%;object-fit:cover;border-radius:20px 20px 0 0;}
+.card-back{opacity:0;visibility:hidden;}
+.card:hover .card-back{opacity:1;visibility:visible;}
+.card:hover .card-front{opacity:0;visibility:hidden;}
+.card-info{padding:10px;display:flex;flex-direction:column;min-height:150px;text-align:left;}
+.card-info .ten-san-pham{font-size:16px;font-weight:bold;margin-bottom:0px;color:#5B212C}
+.card-info p{font-size:0.9em;color:#5B212C;margin-bottom:0px;}
+.card-info .danh-gia{margin-bottom:0px;}
+.card-info .danh-gia .sao{color:#FFC107;font-size:1.1em;}
+.card-info .khung-gia{display:flex;justify-content:space-around;margin-top:0;padding-top:0px}
+.card-info .muc-gia{text-align:left;flex:1;}
+.card-info .muc-gia .nhan{font-size:14px;color:#5B212C;}
+.card-info .muc-gia .gia-tri{font-size:14px;font-weight:bold;color:#e74c3c;}
+.about-item i {font-size: 3em;color: #D43A6A ;margin-bottom: 10px;
+}
